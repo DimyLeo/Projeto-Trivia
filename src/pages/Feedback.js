@@ -26,7 +26,7 @@ class Feedback extends React.Component {
     const { history, resetScore, resetAssertions } = this.props;
     resetScore();
     resetAssertions();
-    history.push('/');
+    history.push('/Projeto-Trivia');
   }
 
   rankingButtonClick = () => {

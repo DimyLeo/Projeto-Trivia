@@ -6,7 +6,7 @@ import logo from '../trivia.png';
 class Ranking extends React.Component {
   goHomeButton = () => {
     const { history } = this.props;
-    history.push('/');
+    history.push('/Projeto-Trivia');
   }
 
   render() {
