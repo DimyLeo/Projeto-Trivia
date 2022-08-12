@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import { resetAssertionsAction, resetScoreAction } from '../redux/actions';
 import logo from '../trivia.png';
@@ -43,7 +44,11 @@ class Feedback extends React.Component {
       <div>
         <Header />
         <header className="App-header">
-          <img src={ logo } className="App-logo" alt="logo" />
+          <Link
+            to="/Projeto-Trivia"
+          >
+            <img src={ logo } className="App-logo" alt="logo" />
+          </Link>
         </header>
         { totalPoints < MIN_POINTS
           ? (

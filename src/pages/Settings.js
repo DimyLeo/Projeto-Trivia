@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../trivia.png';
 
 class Settings extends React.Component {
@@ -6,7 +7,11 @@ class Settings extends React.Component {
     return (
       <>
         <header className="App-header">
-          <img src={ logo } className="App-logo" alt="logo" />
+          <Link
+            to="/Projeto-Trivia"
+          >
+            <img src={ logo } className="App-logo" alt="logo" />
+          </Link>
         </header>
         <h1 data-testid="settings-title">Configurações:</h1>
       </>

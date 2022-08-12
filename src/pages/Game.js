@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
-import { Redirect } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import Header from '../components/Header';
 import Question from '../components/Questions';
 import Timer from '../components/Timer';
@@ -80,7 +80,11 @@ class Game extends React.Component {
       <>
         <Header />
         <header className="App-header">
-          <img src={ logo } className="App-logo" alt="logo" />
+          <Link
+            to="/Projeto-Trivia"
+          >
+            <img src={ logo } className="App-logo" alt="logo" />
+          </Link>
         </header>
         <div className="div-game">
           <Timer />

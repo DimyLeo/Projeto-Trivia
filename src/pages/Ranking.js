@@ -1,6 +1,7 @@
 import md5 from 'crypto-js/md5';
 import PropTypes from 'prop-types';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../trivia.png';
 
 class Ranking extends React.Component {
@@ -16,7 +17,11 @@ class Ranking extends React.Component {
     return (
       <div>
         <header className="App-header">
-          <img src={ logo } className="App-logo" alt="logo" />
+          <Link
+            to="/Projeto-Trivia"
+          >
+            <img src={ logo } className="App-logo" alt="logo" />
+          </Link>
         </header>
         <h1 data-testid="ranking-title">Ranking</h1>
         {

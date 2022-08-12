@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { playerInfoToStore } from '../redux/actions';
 import getToken from '../services/tokenAPI';
 import logo from '../trivia.png';
@@ -44,7 +45,11 @@ class Login extends React.Component {
     return (
       <>
         <header className="App-header">
-          <img src={ logo } className="App-logo" alt="logo" />
+          <Link
+            to="/Projeto-Trivia"
+          >
+            <img src={ logo } className="App-logo" alt="logo" />
+          </Link>
         </header>
         <form>
           <h1>Login</h1>

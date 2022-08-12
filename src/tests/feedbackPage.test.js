@@ -65,7 +65,7 @@ it('Test if the page have the button Play Again', () => {
   expect(button).toBeInTheDocument();
   userEvent.click(button);
 
-  expect(history.location.pathname).toBe('/');
+  expect(history.location.pathname).toBe('/Projeto-Trivia');
 });
 
 it('Test if the page have the button Ranking', () => {
