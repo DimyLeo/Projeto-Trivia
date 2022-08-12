@@ -6,22 +6,6 @@ import Header from '../components/Header';
 import { resetAssertionsAction, resetScoreAction } from '../redux/actions';
 import logo from '../trivia.png';
 
-// menssageScore = () => {
-//   const { getScore } = this.props;
-//   const number = 3;
-//   if (getScore < number) {
-//     return 'Could be better...';
-//   }
-//   if (getScore >= number) {
-//     return 'Well Done!';
-//   }
-// };
-
-// handleClick = () => {
-//   const { history } = this.props;
-//   history.push('/Ranking');
-// };
-
 class Feedback extends React.Component {
   playAgainClick = () => {
     const { history, resetScore, resetAssertions } = this.props;
@@ -50,26 +34,29 @@ class Feedback extends React.Component {
             <img src={ logo } className="App-logo" alt="logo" />
           </Link>
         </header>
-        { totalPoints < MIN_POINTS
-          ? (
-            <p data-testid="feedback-text">Could be better...</p>)
-          : <p data-testid="feedback-text">Well Done!</p>}
-        <p>
-          Score:
-          {' '}
-          <span data-testid="feedback-total-score">
-            {getScore}
-          </span>
-        </p>
-        <p>
-          Hits:
-          {' '}
-          <span data-testid="feedback-total-question">
-            {totalPoints}
-          </span>
-        </p>
+        <div className="div-feedback">
+          { totalPoints < MIN_POINTS
+            ? (
+              <p data-testid="feedback-text">Could be better...</p>)
+            : <p data-testid="feedback-text">Well Done!</p>}
+          <p>
+            Score:
+            {' '}
+            <span data-testid="feedback-total-score">
+              {getScore}
+            </span>
+          </p>
+          <p>
+            Hits:
+            {' '}
+            <span data-testid="feedback-total-question">
+              {totalPoints}
+            </span>
+          </p>
+        </div>
         <button
           type="button"
+          className="btn-feedback"
           onClick={ this.playAgainClick }
           data-testid="btn-play-again"
         >
@@ -77,19 +64,12 @@ class Feedback extends React.Component {
         </button>
         <button
           type="button"
+          className="btn-feedback"
           data-testid="btn-ranking"
           onClick={ this.rankingButtonClick }
         >
           Ranking
         </button>
-        {/* {this.menssageScore} */}
-        {/* <button
-          type="button"
-          data-testid="btn-ranking"
-          onClick={ this.handleClick }
-        >
-          Ranking
-        </button> */}
       </div>
     );
   }

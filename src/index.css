@@ -154,3 +154,17 @@ p {
   color: white;
   transition: 400ms;
 }
+
+.div-feedback {
+  background-color: #313131;
+  border-radius: 20px;
+  padding: 20px;
+  width: 250px;
+  margin: auto;
+}
+
+.btn-feedback:hover {
+  background-color: #313131;
+  color: white;
+  transition: 400ms;
+}
