@@ -34,7 +34,7 @@ Foi utilizado 2 [APIs](#apis-usadas) para montar a Trivia, uma API que trazia as
 ## Layout:
   
   - O layout é feito para uso em computador porem é responsivo sendo possivel tambem jogar no celular.
-  <img src='/src/images/gifaquiiiiiii' alt='gif-projeto' />
+  <img src='/src/Trivia-GIFF.gif' alt='gif-projeto' />
   
 ---
 ## APIs usadas:
