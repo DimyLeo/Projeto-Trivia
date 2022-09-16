@@ -25,7 +25,7 @@ Link do Site: https://dimyleo.github.io/Projeto-Trivia/
 ---
 ## O que foi Desenvolvido:
 
-Um jogo de Trivia onde com perguntas e respostas, conforme você joga sua pontuação e dados vão para o ranking, 
+Um jogo de Trivia com perguntas e respostas, conforme você joga sua pontuação e dados vão para o ranking, 
 o Grupo teve 5 dias para entregar o projeto e ser aprovado em todos os requisitos.
 
 Foi utilizado 2 [APIs](#apis-usadas) para montar a Trivia, uma API que trazia as perguntas e respostas e a API do gravatar.
