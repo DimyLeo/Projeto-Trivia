@@ -44,9 +44,7 @@ Foi utilizado 2 [APIs](#apis-usadas) para montar a Trivia, uma API que trazia as
 [Trivia API](https://opentdb.com/api_config.php) & [Gravatar API](https://br.gravatar.com/site/implement/hash/) São bancos de dados abertos, um para trazer as perguntas e respostas do Trivia e outra para trazer o icone do perfil Gravatar.
 
 ---
-### Verificar o ambiente de Desenvolvimento
-
-<summary><strong>Como baixar o repositório na sua maquina</strong></summary><br />
+### Para verificar o ambiente de Desenvolvimento:
 
 1. Clone o repositório
 
