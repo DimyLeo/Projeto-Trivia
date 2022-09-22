@@ -5,6 +5,12 @@ Link do Site: <a href='https://dimyleo.github.io/Projeto-Trivia/' target="_blank
 
 ### _A [Trybe](https://www.betrybe.com/) Project_
 
+## Layout:
+  
+  - O layout é feito para uso em computador porem é responsivo sendo possivel tambem jogar no celular.
+  <img src='/Trivia-GIFF.gif' alt='gif-projeto' />
+  
+---
 ## Grupo que Desenvolveu:
 
   - [@h3zord](https://github.com/h3zord);
@@ -30,12 +36,6 @@ o Grupo teve 5 dias para entregar o projeto e ser aprovado em todos os requisito
 
 Foi utilizado 2 [APIs](#apis-usadas) para montar a Trivia, uma API que trazia as perguntas e respostas e a API do gravatar.
 
----
-## Layout:
-  
-  - O layout é feito para uso em computador porem é responsivo sendo possivel tambem jogar no celular.
-  <img src='/Trivia-GIFF.gif' alt='gif-projeto' />
-  
 ---
 ## APIs usadas:
 ### Trivia API
