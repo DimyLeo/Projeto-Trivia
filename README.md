@@ -44,4 +44,22 @@ Foi utilizado 2 [APIs](#apis-usadas) para montar a Trivia, uma API que trazia as
 [Trivia API](https://opentdb.com/api_config.php) & [Gravatar API](https://br.gravatar.com/site/implement/hash/) São bancos de dados abertos, um para trazer as perguntas e respostas do Trivia e outra para trazer o icone do perfil Gravatar.
 
 ---
-Esse é o nosso Projeto, use nosso site para jogar e se divertir no seu computador, tablet ou celular. <a href='https://dimyleo.github.io/Projeto-Trivia/'>SITE</a>
+### Verificar o ambiente de Desenvolvimento
+
+<summary><strong>Como baixar o repositório na sua maquina</strong></summary><br />
+
+1. Clone o repositório
+
+- Use o comando: `git clone git@github.com:DimyLeo/Projeto-Trivia.git`.
+- Entre na pasta do repositório que você acabou de clonar:
+  - `cd Projeto-Trivia`
+
+2. Instale as dependências e inicialize o projeto
+
+- Instale as dependências:
+  - `npm install`
+- Inicialize o projeto:
+  - `npm start` (uma nova página deve abrir no seu navegador com o site)
+---
+
+  Esse é o nosso Projeto, use nosso site para jogar e se divertir no seu computador, tablet ou celular. <a href='https://dimyleo.github.io/Projeto-Trivia/'>SITE</a>
